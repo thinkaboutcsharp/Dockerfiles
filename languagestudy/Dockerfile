@@ -13,5 +13,6 @@ RUN apt-get install -y haskell-platform
 RUN apt-get install -y python3
 RUN apt-get install -y ruby2.3
 RUN apt-get install -y gcl
+RUN apt-get install -y tinyscheme
 
 RUN mkdir /study
